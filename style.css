@@ -16,7 +16,7 @@ body{
 /* Get Started Button Design */
 .box-button {
   display: inline-block;
-  background:hsla(24, 100%, 43%, 0.774) ;
+  background:#DD0000 ;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 15px;
@@ -133,12 +133,12 @@ body{
 }
 /* Match Area End  */
 /* Get Started Match Live Card Area*/
-.match-live-area{
+.match-zone-area{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
 }
-.match-live-card{
+.match-zone-card{
   width: 312px;
   height: 362px;
   border: 2px solid #E8E8E8;
@@ -153,15 +153,11 @@ body{
 .card-icon img{
   padding-right: 15px;
 }
-.match-live-card-content{
+.match-zone-card-content{
   padding-left: 20px;
   padding-top: 20px;
 }
-.match-live-card-content a{
-  width: 100px;
-  height: 32px;
-  padding: 10px 35px;
-  text-decoration: none;
+.match-zone-card-content a{
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
@@ -170,26 +166,30 @@ body{
   color: #161616;
   border: 1px solid #161616;
   border-radius: 5px;
+  width: 100px;
+  height: 32px;
+  padding: 10px 35px;
+  text-decoration: none;
 }
-.match-live-card-content p{
-  width: 272px;
-  height: 54px;
+.match-zone-card-content p{
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
+  width: 272px;
+  height: 54px;
   line-height: 27px;
   color: #161616;
 }
 .card-icon p{
-  width: 26px;
-  height: 26px;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 26px;
   color: rgba(22, 22, 22, 0.7);
+  width: 26px;
+  height: 26px;
+  line-height: 26px;
 }
 /* Match Live Card Area End */
 /* Body Area End */
