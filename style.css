@@ -133,7 +133,7 @@ body{
 }
 /* Match Area End  */
 /* Get Started Match Live Card Area*/
-.match-live-area{
+.match-zone-area{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
@@ -198,12 +198,14 @@ body{
   height: 282px;
   border: 1px solid #E8E8E8;
   border-radius: 10px;
+  
 }
 .flag-logo-area{
   width: 312px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+   
 }
 
 .match-card-view{
@@ -218,6 +220,7 @@ body{
 .up-match-card-content h4{
   margin-bottom: 0px;
   margin-top: 10px;
+  text-align: center;
 
 }
 
@@ -229,6 +232,7 @@ body{
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
+  text-align: center;
 }
 
 /* Upcomming Match End*
