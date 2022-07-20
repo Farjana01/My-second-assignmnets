@@ -133,7 +133,7 @@ body{
 }
 /* Match Area End  */
 /* Get Started Match Live Card Area*/
-.match-zone-area{
+.match-live-area{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
@@ -191,7 +191,47 @@ body{
   height: 26px;
   line-height: 26px;
 }
-/* Match Live Card Area End */
+/* Match Area End */
+/* Get Started Upcomming Match area */
+.up-match-card{
+  width: 312px;
+  height: 282px;
+  border: 1px solid #E8E8E8;
+  border-radius: 10px;
+}
+.flag-logo-area{
+  width: 312px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.match-card-view{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.up-match-card-content h4{
+  margin-bottom: 0px;
+  margin-top: 10px;
+
+}
+
+.up-match-card-content p{
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/* Upcomming Match End*
 /* Body Area End */
 /* Get Started Footer Area */
 #footer{
