@@ -217,9 +217,10 @@ body{
 #footer hr{
   border: 1px solid rgba(255, 255, 255, 0.1);
   width: 75%;
+  
 }
 .footer-navigation{
-  margin-top: 45px;
+  margin-top: 50px;
 }
 .footer-navigation a{
   font-family: 'Poppins';
@@ -230,7 +231,19 @@ body{
   text-decoration: none;
   padding-left: 25px;
   color: #B9B9B9;
-  line-height: 24px;
+  line-height: 25px;
+  text-align: center;
 }
+
+.social-area{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.social-area a{
+  color: #DD0000 ;
+  margin-left: 12px;
+}
+
 /* Footer Area End */
-/* Body Area End */ 
+
