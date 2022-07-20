@@ -132,7 +132,7 @@ body{
   border: none;
 }
 /* Match Area End  */
-/* Get Started Match Live Card Area*/
+/* Get Started Match zone Card Area*/
 .match-zone-area{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -194,21 +194,20 @@ body{
 /* Match Area End */
 /* Get Started Upcomming Match area */
 .up-match-card{
-  width: 312px;
-  height: 282px;
-  border: 1px solid #E8E8E8;
+  width: 310px;
+  height: 280px;
   border-radius: 10px;
-  
-}
+  border: 1px solid #E8E8E8;
+ }
 .flag-logo-area{
-  width: 312px;
+  width: 310px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
    
 }
 
-.match-card-view{
+.up-match-card{
   display: flex;
   flex-direction: column;
   align-items: center;
