@@ -1,4 +1,5 @@
-/* Common Css Start Here */
+/* Get Started Css */
+/* Get Started Common Css */
 body{
 
   margin: 0;
@@ -12,25 +13,22 @@ body{
  margin: 0 auto;
 }
 
-/* Button Design */
-
+/* Get Started Button Design */
 .box-button {
   display: inline-block;
-  background: #DD0000;
+  background:hsla(24, 100%, 43%, 0.774) ;
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 14px;
-  padding: 20px 35px;
+  font-size: 15px;
+  padding: 16px 25px;
   position: relative;
   border-radius: 5px;
   color: #fff; 
 }
-
 .box-button:hover i {
   right:16px;
-  opacity: 1;
+  opacity: 2;
 }
-
 .box-button i {
   position: absolute;
   top: 50%;
@@ -40,11 +38,11 @@ body{
   opacity: 0;
 }
 
-/* Button Design */
+/* Button Design End*/
 
-/* Common Css End Here */
+/* Common Css End  */
 
-/* Top Banner Area Design Start Here */
+/* Get Started Banner Area */
 #banner{
   margin-top: 50px;
 }
@@ -65,7 +63,7 @@ body{
   font-style: normal;
   font-weight: 700;
   font-size: 70px;
-  width: 531px;
+  width: 506px;
   height: 240px;
   line-height: 80px;
   color: #FFFFFF;
@@ -84,17 +82,155 @@ body{
 }
 
 .banner-content a{
+  text-align: center;
   font-family: 'HelveticaNeue';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  text-align: center;
+  
 }
 
-.banner-img img{
+.banner-image img{
   margin-top: 32px;
   width: 581px;
   height: 613px;
 }
 
-/* Top Banner Area Design End Here */ 
+/* Banner Area End */ 
+/* Get Started Body Area  */
+#body{
+  margin-top: 130px;
+}
+.body-area{
+  display: flex;
+} 
+/* Get Started Match Area  */
+.match-area{
+  width: 312px;
+  height: 312px;
+  background: #161616;
+  border-radius: 10px;
+  margin-right: 24px;
+}
+.match-area-content{
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+  justify-content: space-around;
+  flex-direction: column;
+  height: 312px;
+}
+.match-area-content button{
+  width: 252px;
+  height: 64px;
+  border-radius: 10px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  border: none;
+}
+/* Match Area End  */
+/* Get Started Match Live Card Area*/
+.match-live-area{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+.match-live-card{
+  width: 312px;
+  height: 362px;
+  border: 2px solid #E8E8E8;
+  border-radius: 10px;
+}
+.card-icon{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  
+}
+.card-icon img{
+  padding-right: 15px;
+}
+.match-live-card-content{
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.match-live-card-content a{
+  width: 100px;
+  height: 32px;
+  padding: 10px 35px;
+  text-decoration: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #161616;
+  border: 1px solid #161616;
+  border-radius: 5px;
+}
+.match-live-card-content p{
+  width: 272px;
+  height: 54px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #161616;
+}
+.card-icon p{
+  width: 26px;
+  height: 26px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(22, 22, 22, 0.7);
+}
+/* Match Live Card Area End */
+/* Body Area End */
+/* Get Started Footer Area */
+#footer{
+  margin-top: 130px;
+  width: 1600px;
+  height: 444px;
+  background: #161616;
+  color: #fff;
+  text-align: center;
+}
+
+#footer h3{
+  padding-top: 130px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#footer hr{
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  width: 75%;
+}
+.footer-navigation{
+  margin-top: 45px;
+}
+.footer-navigation a{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  font-feature-settings: 'liga' off;
+  text-decoration: none;
+  padding-left: 25px;
+  color: #B9B9B9;
+  line-height: 24px;
+}
+/* Footer Area End */
+/* Body Area End */ 
