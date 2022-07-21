@@ -1,9 +1,9 @@
-/* Mobile Design Start Here */
+/* Mobile Design */
 @media screen and (max-width:576px)
             
 {
     
-    /* Banner area Responsive Start Here */
+    /* Banner area */
     .container .banner-area{
         flex-direction: column;
         height: auto;
@@ -12,7 +12,6 @@
         padding-left: 0;
         text-align: center;   
     }
-
     .container .banner-area .banner-content
         h1{
         width: auto;
@@ -20,14 +19,13 @@
         line-height: 70px;
         
     }
-
     .container .banner-area .banner-img img{
         width: 100%;
      }
 
-    /* Banner area Responsive End Here */
+    /* Banner end */
 
-    /* Body area Responsive Start Here */
+    /* Body area */
     .container .body-area{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -47,53 +45,45 @@
         width: 100%;
         height: auto;
     }
-    /* Body area Responsive End Here */
-
-    
-   /* Footer area responsive Start Here */
+    /* Body area end */
+    /* Footer area  */
    #footer{
     height: auto;
     background: #0000;
 }
 .footer-navigation{
     display: flex;
-    flex-direction: column;
-    gap: 20px;
-    height: auto;
-    background-color: #0000;
+        flex-direction: column;
+        gap: 20px;
+        height: auto;
+        background: rgb(24, 23, 23);
 }
 
 .footer-area .social-area{
-    height: auto;
-    background: #0000;
+    margin-top: 0;
+    background: rgb(24, 23, 23);
+    padding-top: 16px;
+    
 }
 
- 
-    /* Footer area responsive Ed Here */
 
-
-    /* View all Button */
+/* Footer area responsive end */
+ /* View all */
     #tab-btn{
         visibility: hidden;
     }
 }
 
-/* Mobile Design End Here */
-
-/* Medium Size Design Start */
-/* Medium Screen Start Here */
+/* Mobile Design End*/
+/* Medium Size Start */
+/* Medium Screen Start  */
 @media screen and (min-width:576px) and (max-width:992px){
-
-    /* Banner area Responsive Start Here */
-    
-     
+/* Banner area */
     .container .banner-area .anner-content h1{
         width: auto;
         font-size: 80px;
         line-height: 60px;
-        
-    }
-
+        }
     .banner-area .banner-content {
         padding-left: 15px;     
     }
@@ -102,12 +92,9 @@
         width: 100%;
      }
 
-    /* Banner area Responsive End Here */
-
-
-    /* Body area Responsive Start Here */
-
-    .container .body-area{
+    /* Banner area end */
+    /* Body area */
+   .container .body-area{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         width: 100%;
@@ -135,15 +122,12 @@
         height: auto;
     }
 
-    /* Body area Responsive End Here */
-     
-
-    /* View all Button */
+    /* Body Responsive End */
+     /* View all*/
     #tab-btn{
        visibility: visible;
        margin-top: 25px;
     }
     
 }
-
 /* Medium Size Design End */
