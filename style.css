@@ -14,7 +14,7 @@ body{
 }
 
 /* Get Started Button Design */
-.box-button {
+.banner-button {
   display: inline-block;
   background:#DD0000 ;
   text-transform: uppercase;
@@ -25,11 +25,11 @@ body{
   border-radius: 5px;
   color: #fff; 
 }
-.box-button:hover i {
+.banner-button:hover i {
   right:16px;
   opacity: 2;
 }
-.box-button i {
+.banner-button i {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -45,6 +45,7 @@ body{
 /* Get Started Banner Area */
 #banner{
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 .banner-area{
   border-radius: 30px;
@@ -181,6 +182,10 @@ body{
   line-height: 27px;
   color: #161616;
 }
+
+.match-zone-card-img img{
+  width: 100%;
+}
 .card-icon p{
   font-family: 'Poppins';
   font-style: normal;
@@ -192,7 +197,7 @@ body{
   line-height: 26px;
 }
 /* Match Area End */
-/* Get Started Upcomming Match area */
+/*Upcomming Match area */
 .up-match-card{
   width: 310px;
   height: 280px;
@@ -208,6 +213,19 @@ body{
 }
 
 .up-match-card{
+  width: 312px;
+  height: 282px;
+  border: 1px solid #E8E8E8;
+  border-radius: 10px;
+}
+.flag-logo-area{
+  width: 312px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.up-match-card{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -219,7 +237,7 @@ body{
 .up-match-card-content h4{
   margin-bottom: 0px;
   margin-top: 10px;
-  text-align: center;
+
 
 }
 
@@ -231,22 +249,22 @@ body{
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  text-align: center;
 }
 
 /* Upcomming Match End*
 /* Body Area End */
 /* Get Started Footer Area */
-#footer{
+/* Footer Area Design Start Here */
+.footer-area{
   margin-top: 130px;
-  width: 1600px;
+  width: 100%;
   height: 444px;
   background: #161616;
   color: #fff;
   text-align: center;
 }
 
-#footer h3{
+.footer-area h3{
   padding-top: 130px;
   font-family: 'Poppins';
   font-style: normal;
@@ -257,25 +275,25 @@ body{
   color: #FFFFFF;
 }
 
-#footer hr{
+.footer-area hr{
   border: 1px solid rgba(255, 255, 255, 0.1);
   width: 75%;
-  
 }
+
 .footer-navigation{
-  margin-top: 50px;
+  margin-top: 45px;
 }
+
 .footer-navigation a{
+  text-decoration: none;
+  padding-left: 23px;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
+  line-height: 24px;
   font-feature-settings: 'liga' off;
-  text-decoration: none;
-  padding-left: 25px;
-  color: #B9B9B9;
-  line-height: 25px;
-  text-align: center;
+  color: #B9B9B9;  
 }
 
 .social-area{
@@ -284,9 +302,11 @@ body{
 }
 
 .social-area a{
-  color: #DD0000 ;
-  margin-left: 12px;
+  color: #fff;
+  margin-left: 10px;
 }
 
-/* Footer Area End */
-
+#tab-btn{
+  visibility: hidden;
+  margin-top: 25px;
+}

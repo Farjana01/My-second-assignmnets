@@ -1,5 +1,5 @@
-/* Mobile Design */
-@media screen and (max-width:577px) 
+/* Mobile Design Start Here */
+@media screen and (max-width:576px)
             
 {
     
@@ -13,6 +13,18 @@
         text-align: center;   
     }
 
+    .container .banner-area .banner-content
+        h1{
+        width: auto;
+        font-size: 80px;
+        line-height: 70px;
+        
+    }
+
+    .container .banner-area .banner-img img{
+        width: 100%;
+     }
+
     /* Banner area Responsive End Here */
 
     /* Body area Responsive Start Here */
@@ -20,58 +32,118 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         width: 100%;
-        height: auto;
-        
+        height: auto;    
     }
-
-    .banner-area .banner-image img{
-       width: 100%;
-    }
-
-
     .body-area .match-area{
         width: 100%;
         background: none;
     }
-
-    .body-area .match-zone-card , .body-area .match-zone-card {
-        width: 100%;
-        height: auto;
-    }
-
-    .body-area .match-card {
-        height: 212px;
-    }
-
-
-
     .body-area .match-zone-area{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .body-area .match-zone-area {
+        width: 100%;
+        height: auto;
+    }
     /* Body area Responsive End Here */
 
-    /* Footer area responsive Start Here */
-    #footer{
-        height: auto;
-    }
-    .footer-navigation{
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        height: auto;
-        background-color: #0000;
-    }
-     
+    
+   /* Footer area responsive Start Here */
+   #footer{
+    height: auto;
+    background: #0000;
+}
+.footer-navigation{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: auto;
+    background-color: #0000;
+}
 
+.footer-area .social-area{
+    height: auto;
+    background: #0000;
+}
+
+ 
     /* Footer area responsive Ed Here */
 
 
     /* View all Button */
-    #view-all-btn{
+    #tab-btn{
         visibility: hidden;
     }
 }
 
 /* Mobile Design End Here */
+
+/* Medium Size Design Start */
+/* Medium Screen Start Here */
+@media screen and (min-width:576px) and (max-width:992px){
+
+    /* Banner area Responsive Start Here */
+    
+     
+    .container .banner-area .anner-content h1{
+        width: auto;
+        font-size: 80px;
+        line-height: 60px;
+        
+    }
+
+    .banner-area .banner-content {
+        padding-left: 15px;     
+    }
+
+    .banner-area .banner-image img{
+        width: 100%;
+     }
+
+    /* Banner area Responsive End Here */
+
+
+    /* Body area Responsive Start Here */
+
+    .container .body-area{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        height: auto;
+    }
+
+    .body-area .match-area{
+        width: 100%;
+        background: none;
+        height: 200px;
+    }
+
+    .body-area .match-area .match-area-content{
+        display: flex; 
+         flex-direction: row;
+     }
+
+     .body-area .match-zone-area , .body-area .up-match-card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 10px;
+    }
+    .body-area .match-zone-area .match-Zone-card{
+        width:auto;
+        height: auto;
+    }
+
+    /* Body area Responsive End Here */
+     
+
+    /* View all Button */
+    #tab-btn{
+       visibility: visible;
+       margin-top: 25px;
+    }
+    
+}
+
+/* Medium Size Design End */
